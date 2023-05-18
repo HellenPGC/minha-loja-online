@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ropa Sans', sans-serif;
+    text-decoration: none;
+}
+
+.fundo {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #12111F;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo.icone {
+    width: 25%;
+}
+
+.logo img {
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.cabecalho-link nav a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+
+.cabecalho-link a:hover {
+    color: #6F931B;
+    padding-right: 50px;
+    height: 4px;
+    position: relative;
+}
+
+
+.icone span {
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.icone span:hover {
+    color: #6F931B;
+}
+
+.meio {
+    background: url("https://i.im.ge/2023/05/03/UoQrTX.bannerPrin.jpg");
+    background-size: cover;
+    padding: 6rem 0rem 20rem 10rem;
+}
+
+.meio h1 {
+    font-size: 4rem;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.meio p {
+    padding-bottom: 1rem;
+    color: #fff;
+    font-size: 20px;
+}
+
+.meio button {
+    background-color: #6F931B;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border-color: #6F931B;
+}
+
+.meio button:hover {
+    background-color: green;
+    transform: scaleY(1.2);
+}
+
+section {
+    padding-top: 7rem;
+}
+
+section h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.conteiner-car-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.cards img {
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+}
+
+.cards img:hover {
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+}
+
+.cta {
+    background: url("https://i.im.ge/2023/03/13/DFylsy.liderKWS.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.texto-cta {
+    padding-left: 5rem;
+}
+
+.texto-cta h6 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.texto-cta h4 {
+    font-size: 3.3rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.texto-cta a {
+    background-color: #6F931B;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.texto-cta a:hover {
+    background-color: green;
+    transform: scaleY(1.2);
+}
+
+.container-kws {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+.container-kws img:hover {
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.kws {
+    background-color: green;
+    color: #fff;
+}
+
+.kws img {
+    width: 250px;
+    height: auto;
+}
+
+.marcas {
+    margin-top: 10rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.marcas img {
+    width: 180px;
+    height: auto;
+    background-color: white;
+}
+
+.contato {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #6F931B;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (200px, auto));
+}
+
+.meio-contato h3 {
+    color: #12111F;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+
+.meio-contato h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #12111F;
+}
+
+.meio-contato li a {
+    display: block;
+    color: #12111F;
+    font-weight: 600;
+    transition: 0.35s ease;
+}
+
+.whats {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.whats img {
+    width: 70px;
+}
+
+
+/*
+aqui o CSS da page login*/
+.capaLogin {
+    height: 700px;
+}
+
+.containerLogin {
+    display: flex;
+    align-items: center;
+}
+
+.formLogin {
+    padding: 0px 0px 0px 220px;
+}
+
+.dadosLogin h1{
+    font-size: 40px;
+}
+
+.dadosLogin h2 {
+    font-size: 20px;
+}
+
+.dadosLogin button {
+    background-color: #6F931B;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border-color: #6F931B;
+}
+
+.dadosLogin input {
+    font-size: 35px;
+}
+
+
+/*
+aqui o CSS da page cadastro*/
+.capaCadastro {
+    height: 700px;
+}
+
+.containerForm {
+    display: flex;
+    align-items: center;
+}
+
+.formCadastro {
+    padding: 0px 0px 0px 220px;
+}
+
+.dadosCadastro h1 {
+    font-size: 30px;
+}
+
+.dadosCadastro button {
+    background-color: #6F931B;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border-color: #6F931B;
+}
+
+.dadosCadastro input {
+    font-size: 35px;
+}
+
+
+/*
+aqui o CSS da page quem somos*/
+.textoQuemSomos h1{
+text-align: center;
+font-size: 40pt;
+}
+
+
+.textoQuemSomos p{
+width: 900px;
+font-size: 14pt;
+padding: 10px;
+margin: auto;
+}
+
+.redesSociais{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+font-size: 3em;
+}
+
+
+/*
+aqui o CSS da page produtos*/
+.containerProdutos{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.selecaoImagem img{
+ max-width: 500px;
+}
+
+.itensDireita h1{
+    color: #6F931B;
+    padding: 4px;
+    font-size: 42px;
+}
+
+.itensDireita p{
+color: #12111F;
+font-size: 14px;
+padding: 4px;
+}
+
+.preco{
+color: white;
+font-size: 14px;
+font-weight: 300;
+background-color: #6F931B;
+width: fit-content;
+border-radius: 5px;
+padding: 4px;
+}
+
+.opcoes{
+    display: flex;
+    gap: 20px;
+    padding: 4px;
+    }
+    
+    
+    .quantidade{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 30px 30px 0px 0px;
+    }
+    
+    .quantidade spam{
+    font-weight: 700;
+    font-size: 12px;
+    }
+    
+    .menos{
+        cursor: pointer;
+    }
+    
+    .mais{
+        cursor: pointer;    
+    }
+    
+    .comprarProduto{
+    /*tirando o zul sublinhado do texto, arredondando as suas bordas e alinahndo icone ao texto de comprar*/
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        background-color: green;
+        padding: 10px 18px;
+        border-radius: 8px;
+        display: flex; 
+        align-items: center;
+    /*display felx pode desconfigurar o botao, com o comando para que o texto se adapte ao conteudo*/
+    width: fit-content;
+    font-weight: 600;
+    }
+    
+
+    .descricao h2{
+        text-align: center;
+        font-size: 30pt;
+        }
+        
+        
+        .descricao p{
+        width: 900px;
+        font-size: 14pt;
+        padding: 10px;
+        margin: auto;
+        }
+
+        
+/*
+aqui o CSS da page contato*/
+
+.tituloContato{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-bottom: 2rem;
+padding-top: 2rem;
+}
+
+
+.containerContato form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.selecaoFormCadastro{
+display: flex;
+justify-content: center;
+gap: 1rem;
+}
+
+
+.botaoContato button{
+    background-color: #6F931B;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border-color: #6F931B;
+}
+
+/*
+aqui o CSS da page soluções*/
+.topoSolucoes{
+text-align: center;
+padding: 14px 0px 20px 0px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 10%;
+  }
+  
+  .postMilho {
+    float: left;
+    margin-left: 20px; 
+    text-align: left;
+  }
+
+  .postMilho p1{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    }
+
+.postMilho p{
+text-align: left;
+}
+
+.container img{
+width: 180px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 10%;
+  }
+  
+  .postPasto {
+    float: left;
+    margin-left: 20px; 
+    text-align: left;
+  }
+
+  .postPasto p1{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    }
+
+.postPasto p{
+text-align: left;
+}
+
+.container2 img{
+width: 180px;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 10%;
+  }
+  
+  .postSoja {
+    float: left;
+    margin-left: 20px; 
+    text-align: left;
+  }
+
+  .postSoja p1{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    }
+
+.postSoja p{
+text-align: left;
+}
+
+.container3 img{
+width: 180px;
+}
+
+
+/*
+aqui o CSS da page carrinho*/
+.sacola thead{
+    text-align: left;
+}
+
+.imgProduto img{
+ width: 180px;
+}
+
+.deleteProduto{
+background: rgb(188, 138, 138);
+border: 0;
+width: 20px;
+height: 20px;
+cursor: pointer;
+}
+
+.quantCarrinho{
+    display: inline-flex;
+    gap: 20px;
+    background: rgb(234, 237, 245);
+}
+
+.quantCarrinho button{
+    background: rgb(176, 233, 176);
+    border: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.botaoFinalizar button{
+text-decoration: none;
+color: white;
+background-color: green;
+padding: 10px 18px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.botaoFinalizar{
+display: flex;
+justify-content: end;
+}
+
+
+/*
+aqui o CSS da page ofertas*/
+
+.tituloOfertas{
+font-size: 46px;
+}
+
+.containerOfertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.containerOfertas img:hover {
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cardsOfertas {
+    background-color: orange
+}
+
+.cardsOfertas img {
+    width: 300px;
+    height: 300px;
+}
+

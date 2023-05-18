@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imagens/LogoLoja.jpg">
+    <title>Plante Tech</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="fundo">
+            <div class="logo">
+                <a href="/index">
+                    <img src="./imagens/LogoLoja.jpg">
+                </a>
+            </div><!--logo-->
+
+            <div class="cabecalho-link">
+                <nav>
+                    <a href="/quem-somos">QUEM SOMOS</a>
+                    <a href="/solucoes">SOLUÇÕES</a>
+                    <a href="/ofertas">OFERTAS</a>
+                    <a href="/contato">CONTATO</a>
+                    <a href="/login" icone><span><ion-icon name="cart-outline"></ion-icon></span></a>
+                </nav>
+
+            </div><!--cabecalho-->
+        </div><!-- fundo-->
+    </header>
+
+
+    <body>
+        <div class="topoSolucoes">
+            <h1>SEU CARRINHO DE COMPRAS</h1>
+        </div>
+
+
+
+        <div class="sacola">
+            <section>
+                <table>
+                    <thead>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Total</th>
+                        <th>-</th>
+                    </thead>
+
+
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="imgProduto">
+                                    <img src="./imagens/Mavuno.jpg">
+                                </div>
+                            </td>
+
+                            <td>R$ 50</td>
+                            <td>
+                                <div class="quantCarrinho">
+                                    <button class="remover"><ion-icon name="remove-outline"></ion-icon></ion-icon></button>
+                                    <spam> 4 </spam>
+                                    <button class="incluir"><ion-icon name="add-outline"></ion-icon></ion-icon></button>
+                                </div>
+                            </td>
+
+                            <td>R$ 100</td>
+                            <td>
+                                <button class="deleteProduto"><ion-icon name="close-outline"></ion-icon></button>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="imgProduto">
+                                    <img src="./imagens/Mavuno.jpg">
+                                </div>
+                            </td>
+
+                            <td>R$ 50</td>
+                            <td>
+                                <div class="quantCarrinho">
+                                    <button>-</button>
+                                    <spam>4</spam>
+                                    <button>+</button>
+                                </div>
+                            </td>
+
+                            <td>R$ 100</td>
+                            <td>
+                                <button class="deleteProduto"><ion-icon name="close-outline"></ion-icon></button>
+                            </td>
+                        </tr>
+
+    
+                    </tbody>
+                </table>
+
+            </section>
+        </div>
+     
+
+            <div class="botaoFinalizar">
+                <button class="botaoFinalizar">FINALIZAR COMPRAS</button>
+      </div>                           
+                
+
+
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
+    </body>
+
+</html>

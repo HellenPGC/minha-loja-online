@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imagens/LogoLoja.jpg">
+    <title>Plante Tech</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="fundo">
+            <div class="logo">
+                <a href="/index">
+                    <img src="./imagens/LogoLoja.jpg">
+                </a>
+            </div>
+
+            <div class="cabecalho-link">
+                <nav>
+                    <a href="/quem-somos">QUEM SOMOS</a>
+                    <a href="/solucoes">SOLUÇÕES</a>
+                    <a href="/ofertas">OFERTAS</a>
+                    <a href="/contato">CONTATO</a>
+                    <a href ="/login" icone><span><ion-icon name="cart-outline"></ion-icon></span></a>
+                </nav>
+
+            </div><!--cabecalho-->
+        </div><!-- fundo-->
+    </header>
+
+    <body>
+
+        <div class="tituloContato">
+            <h1>Quer falar com a gente?</h1>
+            <p>É facil, selecione o assunto e nos diga em que podemos ajudar</p>
+        </div>
+
+        <div class="containerContato">
+
+        <form action="#" method="POST" >
+        <div class="formContato">
+          <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+
+            <label for="email" >E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required> 
+
+            <label for="whats">WhatsApp:</label>
+            <input type="number" name="whats" id="whats" placeholder="Digite seu WhatsApp" required>          
+        </div>
+
+    <div class="selecaoFormCadastro">
+        <select name="dadosContato" id="opcaoContato">
+            <option value="Assunto">Selecione uma opção</option>
+            <option value="Entregas">Entregas</option>
+            <option value="Pagamentos">Pagamentos</option>
+            <option value="Cadastro">Cadastro</option>
+            <option value="Duvidas em Geral">Duvidas em Geral</option>
+            <option value="Elogios">Elogios</option>
+            <option value="Reclamações">Reclamações</option>
+               </div>
+
+    <div class="comentarioContato">
+<textarea style="width: 28em" placeholder="Descreva como podemos ajudar"></textarea>
+  </div>
+
+    <div class="botaoContato">
+        <button type="submit">Enviar</button>
+    </div>
+</form>
+</div>
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+</body>
+</html>
