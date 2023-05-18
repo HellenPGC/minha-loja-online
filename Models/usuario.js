@@ -1,5 +1,5 @@
 //criei esta model para fazer a inteiração com o meu banco de dados (acessoLogin).
-//a models é a responsabel por manipular o banco (obter dado, inclir dados, alterar, apagar etc)
+//a models é a responsavel por manipular o banco (obter dado, inclir dados, alterar, apagar etc)
 
 //crio uma const para incluir a dependencia sequelize agora nesta model aqui
 const Sequelize = require('sequelize');
@@ -16,30 +16,30 @@ const { name } = require('ejs');
 //🟥AQUI COMEÇOU A DAR ERRO
 //const usuario = db.define('usuarios', {
    //id: {
-        type: Sequileze.INTEGER,
-        autoIncrement: true,
-        allowNull: false,
-        primaryKey: true
+        type: Sequileze.INTEGER;
+        autoIncrement: true;
+        allowNull: false;
+        primaryKey: true;
     }
 
 //nome: {
-        type: Sequelize.STRING,
-        allowNull: false
+        type: Sequelize.STRING;
+        allowNull: false;
     }
 
     //sobrenome: {
-        type: Sequelize.STRING,
-        allowNull: false
+        type: Sequelize.STRING;
+        allowNull: false;
     }
     
 //email: {
-        type: Sequelize.STRING,
-        allowNull: false
+        type: Sequelize.STRING;
+        allowNull: false;
     }
 
 //senha: {
-        type: Sequelize.STRING,
-        allowNull: false
+        type: Sequelize.STRING;
+        allowNull: false;
     }
 
 //});
